@@ -119,10 +119,11 @@ header .hidden-image {
 }
 
 .form-widget {
-    float: right;
+    float:left;
+    margin-left:20px;
     background: #11B3BA;
     padding: 22px;
-    width:35%;
+    width:30%;
     border-radius: 16px;
     color: white;
     font-size: 21px;
@@ -152,7 +153,7 @@ header .hidden-image {
 }
 
 span.wpcf7-list-item {
-    margin:0px;
+    margin:0px !important;
 }
 
 .wpcf7-list-item-label {
