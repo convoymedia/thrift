@@ -7,3 +7,7 @@
  * @since Starkers 3.0
  */
 ?>
+
+<ul class="form-widget">
+	<?php dynamic_sidebar( 'form-widget-area' );  ?>
+</ul>
