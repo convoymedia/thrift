@@ -80,7 +80,7 @@ header .hidden-image {
     position:relative;
     display:block;
     float:left;
-    width:51%;
+    width:53%;
     font-size:13px;
     color:black;
     font-family: 'Roboto', sans-serif;
@@ -122,6 +122,7 @@ header .hidden-image {
     float: right;
     background: #11B3BA;
     padding: 22px;
+    width:35%;
     border-radius: 16px;
     color: white;
     font-size: 21px;
@@ -129,7 +130,7 @@ header .hidden-image {
     font-family: 'Roboto', sans-serif;
 }
 
-.form-widget input.wpcf7-text {
+.form-widget input.wpcf7-text, .form-widget textarea {
     position: relative;
     display: block;
     width: 100%;
@@ -148,4 +149,14 @@ header .hidden-image {
 /*im hppy wih it */
 .form-widget br {
     display:none;
+}
+
+span.wpcf7-list-item {
+    margin:0px;
+}
+
+.wpcf7-list-item-label {
+    font-size: 11px;
+    vertical-align: middle;
+    margin-left: 5px;
 }
