@@ -102,6 +102,10 @@ header .hidden-image {
     line-height:28px;
 }
 
+.content p a {
+    font-weight:700;
+}
+
 .content p {
     margin-top:20px;
     margin-bottom:20px;
