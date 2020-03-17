@@ -124,7 +124,7 @@ header .hidden-image {
     margin-left:20px;
     background: #11B3BA;
     padding: 22px;
-    width:30%;
+    width:33%;
     border-radius: 16px;
     color: white;
     font-size: 21px;
@@ -167,4 +167,17 @@ span.wpcf7-list-item {
     font-size: 11px;
     vertical-align: middle;
     margin-left: 5px;
+}
+
+.wpcf7-submit {
+    float: right;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 110px;
+    height: 38px;
+    border-radius: 16px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
