@@ -132,5 +132,10 @@ header .hidden-image {
 .form-widget input.wpcf7-text {
     position: relative;
     display: block;
-    max-width: 100%;
+    width: 100%;
+    border:none;
+    outline:none;
+    border-radius:15px;
+    padding:7px;
+    box-sizing:border-box;
 }
