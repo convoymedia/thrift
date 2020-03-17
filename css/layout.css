@@ -135,7 +135,10 @@ header .hidden-image {
     width: 100%;
     border:none;
     outline:none;
-    border-radius:15px;
+    border-radius:9px;
     padding:7px;
     box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size:10px;
+    font-weight:400;
 }
