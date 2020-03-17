@@ -55,3 +55,10 @@ header .hidden-image {
     width:100%;
     height:auto;
 }
+
+.primary-widget {
+    position:relative;
+    float:left;
+    width:255px;
+    margin-top:35px;
+}

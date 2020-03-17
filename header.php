@@ -49,7 +49,9 @@
 		</div>
 		<div class="fixed">
 			<div class="container">
-				<?php dynamic_sidebar( 'primary-widget-area' );  ?>
+				<ul class="primary-widget">
+					<?php dynamic_sidebar( 'primary-widget-area' );  ?>
+				</ul>
 			</div>
 		</div>
 	</header>
