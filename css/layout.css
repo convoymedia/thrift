@@ -141,4 +141,9 @@ header .hidden-image {
     font-family: 'Roboto', sans-serif;
     font-size:10px;
     font-weight:400;
+    margin-bottom:7px;
+}
+
+.form-width br {
+    display:none;
 }
