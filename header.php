@@ -43,4 +43,7 @@
 <body <?php body_class(); ?>>
 	<header style="background-image:url(<?php echo get_header_image(); ?>)">
 		<img src="<?php echo get_header_image(); ?>" class="hidden-image" />
+		<div>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/thrift-slip.png" style="width:100%;" />
+		</div>
 	</header>
