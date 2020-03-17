@@ -181,3 +181,9 @@ span.wpcf7-list-item {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
+
+.content table {
+    margin-top:28px;
+    line-height:18px;
+    vertical-align:top;
+}
