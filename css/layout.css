@@ -80,7 +80,7 @@ header .hidden-image {
     position:relative;
     display:block;
     float:left;
-    width:53%;
+    width:59%;
     font-size:13px;
     color:black;
     font-family: 'Roboto', sans-serif;
@@ -120,7 +120,7 @@ header .hidden-image {
 }
 
 .form-widget {
-    float:left;
+    float:right;
     margin-left:20px;
     background: #11B3BA;
     padding: 22px;
