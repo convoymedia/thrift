@@ -112,7 +112,7 @@ header .hidden-image {
 .content p {
     margin-top:20px;
     margin-bottom:20px;
-    font-size:14px;
+    font-size:13px;
     color:black;
     font-family: 'Roboto', sans-serif;
     font-weight:400;
@@ -148,6 +148,9 @@ header .hidden-image {
     margin-bottom:7px;
 }
 
+.form-widget textarea {
+    height:85px;
+}
 
 /*im hppy wih it */
 .form-widget br {
