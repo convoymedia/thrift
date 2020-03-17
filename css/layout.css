@@ -39,3 +39,19 @@ header .hidden-image {
     width:100%;
     height:auto;
 }
+
+.container {
+    position:relative;
+    display:block;
+    width:1065px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.fixed {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:auto;
+}

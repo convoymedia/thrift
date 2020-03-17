@@ -43,8 +43,13 @@
 <body <?php body_class(); ?>>
 	<header style="background-image:url(<?php echo get_header_image(); ?>)">
 		<img src="<?php echo get_header_image(); ?>" class="hidden-image" />
-		<?php dynamic_sidebar( 'primary-widget-area' );  ?>
+		
 		<div class="header-overlay">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/thrift-slip.png" style="width:100%;" />
+		</div>
+		<div class="fixed">
+			<div class="container">
+				<?php dynamic_sidebar( 'primary-widget-area' );  ?>
+			</div>
 		</div>
 	</header>
