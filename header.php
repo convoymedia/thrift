@@ -41,6 +41,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<header>
-		<img src="<?php echo get_header_image(); ?>" style="width:100%;height:auto;" />
+	<header style="background-image:url(<?php echo get_header_image(); ?>)">
+		<img src="<?php echo get_header_image(); ?>" class="hidden-image" />
 	</header>

@@ -19,3 +19,7 @@ header {
     width:100%;
     height:auto;
 }
+
+header .hidden-image {
+    opacity:0;
+}
