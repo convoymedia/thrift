@@ -152,6 +152,11 @@ header .hidden-image {
     display:none;
 }
 
+.form-widget .widget-title {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
 span.wpcf7-list-item {
     margin:0px !important;
 }
