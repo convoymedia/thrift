@@ -86,6 +86,7 @@ header .hidden-image {
     font-family: 'Roboto', sans-serif;
     font-weight:400;
     line-height:15px;
+    margin-top: -60px;
 }
 
 .content h1 {
@@ -129,6 +130,7 @@ header .hidden-image {
     font-size: 21px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
+    margin-top: -181px;
 }
 
 .form-widget input.wpcf7-text, .form-widget textarea {
