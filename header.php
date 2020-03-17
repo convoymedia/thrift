@@ -52,6 +52,9 @@
 				<ul class="primary-widget">
 					<?php dynamic_sidebar( 'primary-widget-area' );  ?>
 				</ul>
+				<ul class="secondary-widget">
+					<?php dynamic_sidebar( 'secondary-widget-area' );  ?>
+				</ul>
 			</div>
 		</div>
 	</header>

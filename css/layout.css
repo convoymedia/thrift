@@ -62,3 +62,14 @@ header .hidden-image {
     width:255px;
     margin-top:35px;
 }
+
+.secondary-widget {
+    position:relative;
+    float:left;
+    width:255px;
+    background-color:#941B80;
+    margin-top:35px;
+    color:white;
+    font-size:25px;
+    font-family: 'Gotham Black';
+}
