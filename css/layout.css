@@ -117,3 +117,20 @@ header .hidden-image {
     font-weight:400;
     line-height:18px;
 }
+
+.form-widget {
+    float: right;
+    background: #11B3BA;
+    padding: 22px;
+    border-radius: 16px;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-widget input.wpcf7-text {
+    position: relative;
+    display: block;
+    max-width: 100%;
+}
