@@ -20,5 +20,6 @@ get_header(); ?>
 		</div>
 	<?php endwhile; ?>
 	<?php get_sidebar(); ?>
+	<br class="clear"/>
 </div>
 <?php get_footer(); ?>

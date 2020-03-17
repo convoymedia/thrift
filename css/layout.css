@@ -104,9 +104,16 @@ header .hidden-image {
 
 .content p a {
     font-weight:700;
+    text-decoration:none;
+    color:black;
 }
 
 .content p {
     margin-top:20px;
     margin-bottom:20px;
+    font-size:13px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    line-height:15px;
 }
