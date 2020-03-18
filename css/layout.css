@@ -220,3 +220,7 @@ footer {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+footer ul {
+    display:inline-block;
+}

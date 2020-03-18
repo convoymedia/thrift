@@ -11,9 +11,9 @@
  */
 ?>
 <footer style="background-image:url(<?php echo get_template_directory_uri(); ?>/images/footer.png)">
+	<img src="<?php echo get_template_directory_uri(); ?>/images/footer.png" style="width:100%;opacity:0;" />
 	<div class="fixed">
 		<div class="container">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/footer.png" style="width:100%;opacity:0;" />
 			<ul>
 				<?php dynamic_sidebar( 'footer1-widget-area' );  ?>
 			</ul>
