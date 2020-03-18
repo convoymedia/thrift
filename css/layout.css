@@ -246,6 +246,9 @@ footer ul:last-child {
 
 footer ul li p {
     margin-bottom:20px;
+    font-family: 'Roboto', sans-serif;
+    font-size:11px;
+    line-height:14px;
 }
 
 footer .widget-title {
