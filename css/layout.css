@@ -190,3 +190,7 @@ span.wpcf7-list-item {
     line-height:18px;
     vertical-align:top;
 }
+
+.members ul li {
+    display:inline-block;
+}
