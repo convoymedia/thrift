@@ -147,6 +147,7 @@ header .hidden-image {
     font-size:10px;
     font-weight:400;
     margin-bottom:7px;
+    font-style: italic;
 }
 
 .form-widget textarea {
