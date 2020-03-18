@@ -22,7 +22,7 @@ get_header(); ?>
 	<?php get_sidebar(); ?>
 	<br class="clear"/>
 	<div class="members">
-		Proud members of
+		<span class="proud">Proud members of</span>
 		<ul>
 			<?php dynamic_sidebar( 'members-widget-area' );  ?>
 		</ul>
