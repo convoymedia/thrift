@@ -72,7 +72,8 @@ header .hidden-image {
     margin-top:43px;
     color:white;
     font-size:25px;
-    font-family: 'Gotham Black';
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
     padding:22px 37px;
     border-radius:25px;
 }
