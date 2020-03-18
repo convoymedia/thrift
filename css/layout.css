@@ -364,3 +364,44 @@ footer > img {
         margin: unset !important;
     }
 }
+
+@media only screen and (max-width: 528px) {
+    .primary-widget {
+        position: relative;
+        float: left;
+        width: 150px;
+        margin-top: 25px;
+    }
+
+    .secondary-widget {
+        font-size: 15px;
+        width: 140px;
+    }
+
+    .secondary-widget span {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .primary-widget {
+        margin-top:10px;
+    }
+
+    .secondary-widget {
+        font-size: 12px;
+        width: 112px;
+        padding: 8px 22px;
+    }
+
+    .secondary-widget span {
+        font-size: 12px !important;
+    }
+
+    .content h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 31px;
+    }
+}
