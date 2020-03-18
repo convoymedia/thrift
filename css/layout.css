@@ -148,6 +148,7 @@ header .hidden-image {
     font-weight:400;
     margin-bottom:7px;
     font-style: italic;
+    -webkit-appearance: none;
 }
 
 .form-widget textarea {
@@ -185,6 +186,7 @@ span.wpcf7-list-item {
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    -webkit-appearance: none;
 }
 
 .content table {
