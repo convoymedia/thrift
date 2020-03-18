@@ -17,7 +17,7 @@ header {
     position: relative;
     display: block;
     width: 100%;
-    min-width:967px;
+    min-width:1000px;
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -213,5 +213,7 @@ span.wpcf7-list-item {
 }
 
 footer {
-    min-width:967px;
+    position:relative;
+    display:block;
+    min-width:1000px;
 }
