@@ -303,6 +303,12 @@ footer > img {
     }
 }
 
+@media only screen and (max-width: 1015px) {
+    .form-widget .widget-title {
+        font-size: 20px;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     header {
         min-width:initial;
@@ -319,6 +325,18 @@ footer > img {
     }
 }
 
+@media only screen and (max-width: 972px) {
+    .form-widget .widget-title {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .form-widget .widget-title {
+        font-size: 18px;
+    }
+}
+
 @media only screen and (max-width: 890px) {
     footer {
         background-image: url(../images/footer-background.jpg) !important;
@@ -329,7 +347,19 @@ footer > img {
 
 }
 
-@media only screen and (max-width: 842px) {
+@media only screen and (max-width: 887px) {
+    .form-widget .widget-title {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 845px) {
+    .form-widget .widget-title {
+
+        font-size: 21px;
+        margin-bottom: 10px;
+    
+    }
     .container {
         width:95%;
     }
