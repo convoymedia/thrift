@@ -407,6 +407,50 @@ function twentyten_widgets_init() {
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	) );
+
+	// Area 2, located below the Primary Widget Area in the sidebar. Empty by default.
+	register_sidebar( array(
+		'name' => __( 'Footer 1 Widget Area', 'twentyten' ),
+		'id' => 'footer1-widget-area',
+		'description' => __( 'The Footer 1 widget area', 'twentyten' ),
+		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</li>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+
+	// Area 2, located below the Primary Widget Area in the sidebar. Empty by default.
+	register_sidebar( array(
+		'name' => __( 'Footer 2 Widget Area', 'twentyten' ),
+		'id' => 'footer2-widget-area',
+		'description' => __( 'The Footer 2 widget area', 'twentyten' ),
+		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</li>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+
+	// Area 2, located below the Primary Widget Area in the sidebar. Empty by default.
+	register_sidebar( array(
+		'name' => __( 'Footer 3 Widget Area', 'twentyten' ),
+		'id' => 'footer3-widget-area',
+		'description' => __( 'The Footer 3 widget area', 'twentyten' ),
+		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</li>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
+
+	// Area 2, located below the Primary Widget Area in the sidebar. Empty by default.
+	register_sidebar( array(
+		'name' => __( 'Footer 4 Widget Area', 'twentyten' ),
+		'id' => 'footer4-widget-area',
+		'description' => __( 'The Footer 4 widget area', 'twentyten' ),
+		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</li>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
 }
 /** Register sidebars by running twentyten_widgets_init() on the widgets_init hook. */
 add_action( 'widgets_init', 'twentyten_widgets_init' );
