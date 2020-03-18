@@ -228,10 +228,11 @@ footer .container {
 
 footer ul {
     display:inline-block;
+    margin-right:100px;
 }
 
 footer ul li {
-    color:white;
+    color:#CCCCCC;
 }
 
 footer .widget-title {
