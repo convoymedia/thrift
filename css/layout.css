@@ -210,6 +210,8 @@ span.wpcf7-list-item {
 .members ul li {
     display: inline-block;
     margin-right: 14px;
+    height: 45px;
+    width: auto;
 }
 
 .members ul li:last-child {
@@ -217,6 +219,7 @@ span.wpcf7-list-item {
 }
 
 .proud {
+    opacity:0;
     font-size: 11px;
     margin-left: 11px;
     color: #525252;
