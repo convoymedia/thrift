@@ -232,3 +232,13 @@ footer ul {
 footer ul li {
     color:white;
 }
+
+footer .widget-title {
+    font-size:15px;
+    font-family: 'Gotham Black';
+}
+
+footer  {
+    font-size:11px;
+    font-family: 'Gotham Black';
+}
