@@ -212,6 +212,7 @@ span.wpcf7-list-item {
     margin-right: 14px;
     height: 24px;
     width: auto;
+    margin-bottom:10px;
 }
 
 .members ul li:last-child {
