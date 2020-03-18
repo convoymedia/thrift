@@ -269,6 +269,12 @@ footer  {
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    header {
+        min-width:initial;
+    }
+}
+
 @media only screen and (max-width: 1040px) {
     .container {
         width:95%;
