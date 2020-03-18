@@ -273,6 +273,10 @@ footer  {
     header {
         min-width:initial;
     }
+
+    footer {
+        min-width:initial;
+    }
 }
 
 @media only screen and (max-width: 1040px) {
@@ -299,7 +303,7 @@ footer  {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 80%;
         margin-top: 50px;
     }
 }
