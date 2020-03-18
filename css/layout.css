@@ -83,7 +83,7 @@ header .hidden-image {
     display:block;
     float:left;
     width:59%;
-    font-size:13px;
+    font-size:14px;
     color:black;
     font-family: 'Roboto', sans-serif;
     font-weight:400;
@@ -114,7 +114,7 @@ header .hidden-image {
 .content p {
     margin-top:20px;
     margin-bottom:20px;
-    font-size:13px;
+    font-size:14px;
     color:black;
     font-family: 'Roboto', sans-serif;
     font-weight:400;
@@ -124,15 +124,22 @@ header .hidden-image {
 .form-widget {
     float:right;
     margin-left:20px;
+    
+    width:33%;
+    
+    margin-top: -181px;
+}
+
+.form-widget li:first-child {
     background: #11B3BA;
     padding: 22px;
-    width:33%;
+    width:100%;
     border-radius: 16px;
     color: white;
     font-size: 21px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
-    margin-top: -181px;
+    margin-bottom:20px;
 }
 
 .form-widget input.wpcf7-text, .form-widget textarea {
