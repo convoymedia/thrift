@@ -191,6 +191,23 @@ span.wpcf7-list-item {
     vertical-align:top;
 }
 
+.members {
+    margin-top:53px;
+}
+
 .members ul li {
-    display:inline-block;
+    display: inline-block;
+    margin-right: 14px;
+}
+
+.members ul li:last-child {
+    margin-right:0px;
+}
+
+.proud {
+    font-size: 11px;
+    margin-left: 11px;
+    color: #525252;
+    margin-top: 53px;
+
 }
