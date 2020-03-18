@@ -223,7 +223,7 @@ footer {
 }
 
 footer .container {
-    margin-top:3%;
+    margin-top:4%;
 }
 
 footer ul {
@@ -238,12 +238,14 @@ footer .widget-title {
     font-size:15px;
     font-family: 'Roboto', sans-serif;
     font-weight:700;
-    margin-bottom:10px;
+    margin-bottom:20px;
+    color:#CCCCCC;
 }
 
 footer  {
-    font-size:11px;
+    font-size:12px;
     font-family: 'Roboto', sans-serif;
     font-weight:400;
-    line-height:14px;
+    line-height:16px;
+    color:#CCCCCC;
 }
