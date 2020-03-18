@@ -221,6 +221,14 @@ footer {
     background-repeat: no-repeat;
 }
 
+footer .container {
+    margin-top:3%;
+}
+
 footer ul {
     display:inline-block;
+}
+
+footer ul li {
+    color:white;
 }
