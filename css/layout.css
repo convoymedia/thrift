@@ -247,6 +247,10 @@ footer ul:last-child {
     margin-top:50px;
 }
 
+footer ul:last-child li {
+    color:white;
+}
+
 footer ul li p {
     margin-bottom:20px;
 }
@@ -304,7 +308,7 @@ footer > img {
 
 @media only screen and (max-width: 890px) {
     footer {
-        background-image: url(../images/footer-background.jpg);
+        background-image: url(../images/footer-background.jpg) !important;
         background-repeat: repeat-x;
         background-position:top left;
         background-size: unset;
