@@ -12,19 +12,21 @@
 ?>
 <footer style="background-image:url(<?php echo get_template_directory_uri(); ?>/images/footer.png)">
 	<div class="fixed">
-		<img src="<?php echo get_template_directory_uri(); ?>/images/footer.png" style="width:100%;opacity:0;" />
-		<ul>
-			<?php dynamic_sidebar( 'footer1-widget-area' );  ?>
-		</ul>
-		<ul>
-			<?php dynamic_sidebar( 'footer2-widget-area' );  ?>
-		</ul>
-		<ul>
-			<?php dynamic_sidebar( 'footer3-widget-area' );  ?>
-		</ul>
-		<ul>
-			<?php dynamic_sidebar( 'footer4-widget-area' );  ?>
-		</ul>
+		<div class="container">
+			<img src="<?php echo get_template_directory_uri(); ?>/images/footer.png" style="width:100%;opacity:0;" />
+			<ul>
+				<?php dynamic_sidebar( 'footer1-widget-area' );  ?>
+			</ul>
+			<ul>
+				<?php dynamic_sidebar( 'footer2-widget-area' );  ?>
+			</ul>
+			<ul>
+				<?php dynamic_sidebar( 'footer3-widget-area' );  ?>
+			</ul>
+			<ul>
+				<?php dynamic_sidebar( 'footer4-widget-area' );  ?>
+			</ul>
+		</div>
 	</div>
 </footer>
 <?php
