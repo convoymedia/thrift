@@ -341,3 +341,14 @@ footer > img {
         margin-top: 50px;
     }
 }
+
+@media only screen and (max-width: 690px) {
+    .secondary-widget {
+        font-size:22px;
+        width: 175px;
+    }
+
+    .secondary-widget span {
+        font-size:22px !important;
+    }
+}
