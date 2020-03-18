@@ -230,10 +230,15 @@ footer .container {
 footer ul {
     display:inline-block;
     margin-right:100px;
+    vertical-align:top;
 }
 
 footer ul li {
     color:#CCCCCC;
+}
+
+footer ul li {
+    margin-bottom:20px;
 }
 
 footer .widget-title {
