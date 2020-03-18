@@ -220,9 +220,9 @@ span.wpcf7-list-item {
 
 
 .members ul li img {
-    max-width: unset;
-    width:auto;
-    height: 100%;
+    max-width: unset !important;
+    width:auto !important;
+    height: 100% !important;
 }
 .proud {
     opacity:0;
