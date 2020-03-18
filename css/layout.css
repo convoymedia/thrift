@@ -124,7 +124,7 @@ header .hidden-image {
 .form-widget {
     float:right;
     margin-left:20px;
-    width:33%;
+    width:37%;
     margin-top: -181px;
 }
 
@@ -138,7 +138,7 @@ header .hidden-image {
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     margin-bottom:20px;
-
+    box-sizing: border-box;
 }
 
 .form-widget input.wpcf7-text, .form-widget textarea {
