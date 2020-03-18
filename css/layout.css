@@ -237,7 +237,11 @@ footer ul li {
     color:#CCCCCC;
 }
 
-footer ul li {
+footer ul li:last-child {
+    margin-top:50px;
+}
+
+footer ul li p {
     margin-bottom:20px;
 }
 
