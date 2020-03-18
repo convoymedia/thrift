@@ -302,12 +302,12 @@ footer > img {
     }
 }
 
-@media only screen and (max-width: 890px) {}
+@media only screen and (max-width: 890px) {
     footer {
-        background-image: unset;
+        background-image: unset !important;
     }
 
-    body::before {
+    footer::before {
         content: "";
         position: fixed;
         top: -10px;
