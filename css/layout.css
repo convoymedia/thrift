@@ -391,10 +391,30 @@ footer > img {
     .secondary-widget span {
         font-size:22px !important;
     }
+
+    .primary-widget {
+
+        position: relative;
+        float: left;
+        width: 255px;
+        margin-top: 18px;
+    }
     
     footer ul {
         width: 49% !important;
         margin: unset !important;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .primary-widget {
+        margin-top: 12px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .primary-widget {
+        width: 215px;
     }
 }
 
@@ -436,5 +456,20 @@ footer > img {
         font-weight: 700;
         font-size: 23px;
         line-height: 31px;
+    }
+}
+
+@media only screen and (max-width: 366px) {
+    .secondary-widget {
+        display:none;
+    }
+
+    .primary-widget {
+        width:100%;
+        text-align:center;
+    }
+
+    .primary-widget img {
+        max-width:50%;
     }
 }
