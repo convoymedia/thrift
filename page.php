@@ -21,5 +21,11 @@ get_header(); ?>
 	<?php endwhile; ?>
 	<?php get_sidebar(); ?>
 	<br class="clear"/>
+	<div class="members">
+		Proud members of
+		<ul>
+			<?php dynamic_sidebar( 'members-widget-area' );  ?>
+		</ul>
+	</div>
 </div>
 <?php get_footer(); ?>
