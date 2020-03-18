@@ -237,7 +237,7 @@ footer ul li {
     color:#CCCCCC;
 }
 
-footer ul li:last-child {
+footer ul:last-child {
     margin-top:50px;
 }
 
