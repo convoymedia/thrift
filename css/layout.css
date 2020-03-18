@@ -285,6 +285,15 @@ footer > img {
     display:none;
 }
 
+.social {
+    margin-top:10px;
+}
+
+.social a {
+    text-decoration:none;
+    color:white;
+}
+
 @media only screen and (max-width: 1190px) {
     .content {
         margin-top:-35px;
