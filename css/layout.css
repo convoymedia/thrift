@@ -216,4 +216,7 @@ footer {
     position:relative;
     display:block;
     min-width:1000px;
+    width:100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }

@@ -10,8 +10,8 @@
  * @since Starkers 3.0
  */
 ?>
-<footer">
-	<img src="<?php echo get_template_directory_uri(); ?>/images/footer.png" style="width:100%;" />
+<footer style="background-image:url(<?php echo get_template_directory_uri(); ?>/images/footer.png)">
+	<img src="<?php echo get_template_directory_uri(); ?>/images/footer.png" style="width:100%;opacity:0;" />
 </footer>
 <?php
 	/* Always have wp_footer() just before the closing </body>
