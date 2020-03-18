@@ -218,6 +218,12 @@ span.wpcf7-list-item {
     margin-right:0px;
 }
 
+
+.members ul li img {
+    max-width: unset;
+    width:auto;
+    height: 100%;
+}
 .proud {
     opacity:0;
     font-size: 11px;
