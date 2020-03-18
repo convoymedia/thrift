@@ -256,11 +256,20 @@ footer .widget-title {
 }
 
 footer  {
-    font-size:12px;
-    font-family: 'Roboto', sans-serif;
-    font-weight:400;
-    line-height:16px;
-    color:#CCCCCC;
+    position: relative;
+    display: block;
+    min-width: 1000px;
+    width: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #4c4c4c;
+}
+
+footer .fixed {
+    position: relative;
+    left: inherit;
+    top: inherit;
+    padding-top: 10px;
 }
 
 @media only screen and (max-width: 1190px) {
