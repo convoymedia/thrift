@@ -358,4 +358,9 @@ footer > img {
     .secondary-widget span {
         font-size:22px !important;
     }
+    
+    footer ul {
+        width: 49% !important;
+        margin: unset !important;
+    }
 }
