@@ -315,7 +315,6 @@ footer > img {
 .acceptance .wpcf7-list-item-label {
     float:right;
     width:92%;
-    cursor:pointer;
 }
 
 .pum-theme-65 .pum-container, .pum-theme-hello-box .pum-container {
@@ -327,6 +326,11 @@ footer > img {
     margin-bottom:10px;
     font-size:14px !important;
     line-height:18px !important;
+}
+
+.pum-theme-65 a {
+    color:white;
+    text-decoration:none;
 }
 
 @media only screen and (max-width: 1190px) {
