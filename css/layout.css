@@ -325,6 +325,8 @@ footer > img {
 
 .pum-theme-65 p {
     margin-bottom:10px;
+    font-size:14px !important;
+    line-height:18px !important;
 }
 
 @media only screen and (max-width: 1190px) {
