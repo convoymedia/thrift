@@ -318,6 +318,15 @@ footer > img {
     cursor:pointer;
 }
 
+.pum-theme-65 .pum-container, .pum-theme-hello-box .pum-container {
+    border-radius: 55px !important;
+    border: 14px solid #941b80 !important;
+}
+
+.pum-theme-65 p {
+    margin-bottom:10px;
+}
+
 @media only screen and (max-width: 1190px) {
     .content {
         margin-top:-35px;
